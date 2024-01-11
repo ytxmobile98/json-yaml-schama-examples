@@ -41,6 +41,10 @@
                 }
             },
             "required": [ "length", "width", "height" ]
+        },
+        "warehouseLocation": {
+            "description": "Coordinates of the warehouse with the product",
+            "$ref": "./geographical-location.schema.json"
         }
     },
     "required": [ "productId", "productName", "price" ]
