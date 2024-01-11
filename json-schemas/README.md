@@ -1,6 +1,6 @@
 # JSON schema
 
-A JSON schema is a JSON file that defines the structure of JSON data. It can be used to efficiently validata JSON data files. When it comes to data exchange, it can also be used to define the data structure and data types for different parties that deal with the data.
+A JSON schema is a JSON file that defines the structure of JSON data. It can be used to efficiently validate JSON data files. When it comes to data exchange, it can also be used to define the data structure and data types for different parties that deal with the data.
 
 * **Official website: https://json-schema.org/**
     * [Overview: What is JSON Schema?](https://json-schema.org/overview/what-is-jsonschema)
@@ -18,5 +18,6 @@ The [JSON Schema website](https://json-schema.org) provides the following [tutor
 
 ## Books
 
+* [_JSON at Work_](https://web.archive.org/web/20220706205528/http://projanco.com/Library/JSON%20at%20Work.pdf)
 * [_Understanding JSON Schema_](https://json-schema.org/understanding-json-schema) ([PDF](https://web.archive.org/web/20240111130800/https://json-schema.org/UnderstandingJSONSchema.pdf))
 * [_Using JSON Schema_](http://usingjsonschema.com) ([EPUB](https://web.archive.org/web/20240111135509/http://usingjsonschema.com/assets/UsingJsonSchema_20140714.epub), [PDF](https://web.archive.org/web/20240111135509/http://usingjsonschema.com/assets/UsingJsonSchema_20140714.pdf))
