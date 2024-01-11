@@ -10,5 +10,11 @@
 
 ## JSON schema files
 
-* [`geographical-location.schema.json`](./geographical-location.schema.json)
-* [`product-catalog.schema.json`](./product-catalog.schema.json)
+### Schema files
+
+1. [`product-catalog.schema.json`](./product-catalog.schema.json): product catalog schema
+2. [`geographical-location.schema.json`](./geographical-location.schema.json): geographical location schema
+
+### Data files
+
+1. [`data.json`](./data.json): A product catalog data file that satisfies the [`product-catalog.schema.json`](./product-catalog.schema.json) schema.
