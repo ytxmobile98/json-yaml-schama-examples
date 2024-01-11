@@ -1,2 +1,3 @@
-# json-yaml-schama-examples
-JSON &amp; YAML schema examples
+# JSON & YAML schemas
+
+* [JSON schemas](./json-schemas)
