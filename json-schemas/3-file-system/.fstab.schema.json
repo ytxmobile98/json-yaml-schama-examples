@@ -4,10 +4,14 @@
     "type": "object",
     "required": [ "/" ],
     "properties": {
-        "/": {}
+        "/": {
+            "$ref": "./.entry.schema.json"
+        }
     },
     "patternProperties": {
-        "^(/[^/]+)+$": {}
+        "^(/[^/]+)+$": {
+            "$ref": "./.entry.schema.json"
+        }
     },
     "additionalProperties": false
 }
