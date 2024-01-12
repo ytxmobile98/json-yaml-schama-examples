@@ -77,6 +77,19 @@
             "required": [ "type", "server", "remotePath" ],
             "additionalProperties": false
         },
-        "tmpfs": {}
+        "tmpfs": {
+            "properties": {
+                "type": {
+                    "enum": [ "tmpfs" ]
+                },
+                "sizeInMB": {
+                    "type": "integer",
+                    "minimum": 16,
+                    "maximum": 512
+                }
+            },
+            "required": [ "type", "sizeInMB" ],
+            "additionalProperties": false
+        }
     }
 }
