@@ -1,0 +1,8 @@
+{
+    "$schema": "./.schema.json",
+    "startDate": "2023-08-25T10:00:00Z",
+    "endDate": "2023-08-25T12:00:00Z",
+    "summary": "Conference Presentation",
+    "location": "Conference Center",
+    "recurrenceRule": "FREQ=DAILY;COUNT=5"
+}
