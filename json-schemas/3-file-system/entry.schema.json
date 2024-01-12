@@ -30,7 +30,19 @@
         }
     },
     "$defs": {
-        "diskDevice": {},
+        "diskDevice": {
+            "properties": {
+                "type": {
+                    "enum": [ "disk" ]
+                },
+                "device": {
+                    "type": "string",
+                    "pattern": "^/dev/[^/]+(/[^/]+)*$"
+                }
+            },
+            "required": [ "type", "device" ],
+            "additionalProperties": false
+        },
         "diskUUID": {},
         "nfs": {},
         "tmpfs": {}
