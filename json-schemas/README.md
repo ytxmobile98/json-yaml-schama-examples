@@ -15,6 +15,7 @@ The [JSON Schema website](https://json-schema.org) provides the following [tutor
 
 1. [Creating your first schema](https://json-schema.org/learn/getting-started-step-by-step) ([directory](./1-creating-your-first-schema/))
 2. [Miscellaneous examples](https://json-schema.org/learn/miscellaneous-examples) ([directory](./2-miscellaneous-examples/))
+3. [Modeling a file system with JSON Schema](https://json-schema.org/learn/file-system) ([directory](./3-file-system/))
 
 ## Books
 
