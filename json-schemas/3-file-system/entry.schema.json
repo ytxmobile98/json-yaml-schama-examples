@@ -56,7 +56,27 @@
             "required": [ "type", "label" ],
             "additionalProperties": false
         },
-        "nfs": {},
+        "nfs": {
+            "properties": {
+                "type": {
+                    "enum": [ "nfs" ]
+                },
+                "remotePath": {
+                    "type": "string",
+                    "pattern": "^(/[^/]+)+$"
+                },
+                "server": {
+                    "type": "string",
+                    "oneOf": [
+                        { "format": "hostname" },
+                        { "format": "ipv4" },
+                        { "format": "ipv6" }
+                    ]
+                }
+            },
+            "required": [ "type", "server", "remotePath" ],
+            "additionalProperties": false
+        },
         "tmpfs": {}
     }
 }
