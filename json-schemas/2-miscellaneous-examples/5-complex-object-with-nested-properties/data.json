@@ -1,5 +1,5 @@
 {
-    "$schema": "./schema.json",
+    "$schema": "./.schema.json",
     "name": "John Doe",
     "age": 25,
     "address": {
