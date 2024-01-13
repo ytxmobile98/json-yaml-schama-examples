@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=./.location.schema.yaml
+
+name: The Eiffel Tower
+coordinate:
+  latitude: 48.858093
+  longitude: 2.294694

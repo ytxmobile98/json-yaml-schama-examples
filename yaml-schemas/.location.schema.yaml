@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://example.com/location.schema.yaml
+description: This is a schema for a geographical location on Earth.
+type: object
+properties:
+  name:
+    type: string
+  coordinate:
+    $ref: ./.coordinate.schema.yaml
